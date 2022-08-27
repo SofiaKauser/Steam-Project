@@ -98,6 +98,30 @@ So you can see that there are definitely similar features with these graphs, eve
 
 As an initial experiment, Hyperparameter tuning a neural network produced a 64% accuracy result when filtering the data down to just one game, which I felt was an encouraging start, and perhaps by including more data, the algorithm would learn more features and find a good score of >75%
 
+### Data cleaning steps:
+* Handled in relational database style;
+* Identified and removed testing periods from the data;
+* Cleaning out inadequate data sources;
+* Dropping initial rows - these would feature unreasonably high percentage increase, since the game had only just launched;
+* Fixing data types;
+* Cleaned out news sources with too few contributions.
+
+### Results
+* Accuracy scores, on predicting whether increase was positive or negative:
+* Logistic regression: 53%
+* Random Forest: 52%
+* Neural Network: 55%
+
+The link between monthly users and the news frequency is just not strong. /n
+
+I went on to experiment in other ways, with blurring the data (moving average or gaussian style)... and trying linear regression (disastrous…) but I did not find any higher scores.
+Perhaps more blurring could help to find a link between… but the initial blur i tried did not improve the accuracy score.
+
+Also, correlation/causation?
+Perhaps a finer detail of data for teh player numbers, rather than average, as news items could have a momentary, day-to-day effect rather than across a month.
+
+
+
 ## Median Playtime Analysis
 
 
