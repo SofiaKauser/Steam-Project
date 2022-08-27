@@ -97,9 +97,29 @@ Perhaps a finer detail of data for the player numbers, rather than average, as n
 
 ## Median Playtime Analysis
 
+We decided to see if there were any other features that could drive user engagement, this time represented as the median playtime of a game. 
+
+![image](https://user-images.githubusercontent.com/98031776/187029865-310bb225-82a9-426b-baed-b2fbc4ba3ce3.png)
+
+We created plots of the various features of the data set to find if any had linear correlations existed to begin with as an explorative investigation. 
+We were keen to look at’ Ratings’ and ‘Price’ as a marker for predicting success as we thought a company would value this data.
+  
+We also looked at converting text data into numeric data as a means to predict game success for the Machine Learning model to work we used the tags and categories columns.
+And tried to use them for the Machine Learning Models but the scores were low (0.03)
+![image](https://user-images.githubusercontent.com/98031776/187029914-41bbdba0-2e38-4a29-a5af-ad59387edb53.png)
 
 
+Scaled Logistic regression model for median play time, training score 0.78 and test score 0.76 
+Scaled Random Forest Classifier  for median play time, training score 1.0 and test score 0.75
 
+
+# Conclusions
+
+The data we have been looking at are too noisy to make anything but broad predictions from. 
+  
+ So what makes a game popular?  
+What metrics keep players engaged?  
+Maybe it’s not something you can put a number on…
 
 
 # Files NOT in this GITHUB
