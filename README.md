@@ -72,9 +72,21 @@ Valve originally launched Steam to deliver and update their own creations, such 
 
 ## Network Analysis
 
+The purpose of this exploration was to try to find if there were similar patterns of behaviour (e.g. games owned, reviews, playtime, achievements) between closely related users. 
+
+![image](https://user-images.githubusercontent.com/98031776/187021094-e3110c81-7763-47cd-a2cf-42b1d0881b05.png)
+
+
+Enough (but not all) user have their profiles set to ‘public’ to make this interesting. However, having got to this point, scraping data for these users felt a long way from being able to train a machine learning algorithm on anything meaningful that we could use to help direct a developer. Here, the nodes are coloured for privacy, and sized for distance from the source node.
+
+
+![image](https://user-images.githubusercontent.com/98031776/187021107-7b29d5b0-3255-46a0-b8c0-1a50d34e1c53.png)
+
+
+
 ## News Analysis
 
-## Playtime Analysis
+## Median Playtime Analysis
 
 
 
