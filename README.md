@@ -68,6 +68,8 @@ Valve originally launched Steam to deliver and update their own creations, such 
 * Find some features that could be trained to predict review scores and popularity - e.g. other similar games
 * Predicting average playtime from other data
 
+
+
 # Files in this GITHUB
 
 ## Network Analysis
@@ -91,4 +93,25 @@ Enough (but not all) user have their profiles set to ‘public’ to make this i
 
 
 
+
+
+# Files NOT in this GITHUB
+
+## System requirements analysis
+
+A lack of consistency in how system requirements are laid out made this impossible for us to build into a reliable database.
+
+![image](https://user-images.githubusercontent.com/98031776/187021249-8a78ff07-233f-49ad-a08f-1e9723b36552.png)
+Pictured: system requirements for Lawn Mowing Simulator, Counter Strike: Global Offensive, and Vampire: The Masquerade: Bloodlines
+
+This turned out to be too difficult to parse, due to the lack of a systematic structure for this information.
+
+
+## Machine Learning on User Reviews
+We tried to see if user reviews could be scraped from the Steam website, and then for each reviewer, build up a picture of other games they liked and disliked (Steam has a binary review system: thumbs up or thumbs down). This would enable us to train a logistic regression algorithm that could predict whether or not a particular user would like a given game, based on their other likes and dislikes. This would then enable us to identify users likely to appreciate the game, or perhaps find other games that had a similar profile.
+
+
+![image](https://user-images.githubusercontent.com/98031776/187021214-c7aacfe2-4788-4a48-9850-79dfc5520ac6.png)
+However, the data had a self-selection problem, where many users only give one type of review. Furthermore, the vast number of games available through Steam means that many users will have zero games in common with each other.
+At a practical level the website was also very good at refusing calls from webscraping algorithms, reducing the size of the dataset we could work from.
 
