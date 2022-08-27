@@ -38,10 +38,10 @@ We are going to look at the above possibilities and decide on one after looking 
 # Proposal
 
 We began to consider what data would be relevant to a developer, e.g. Skyhook games, creator of simulator software such as ‘Lawn Mowing Simulator’ and ‘Train Simulator’.
-We found datasets on Kaggle but also realised we could use Steam’s own API to gather recent or historic data.
-We wondered if we could find some features of the data that would enable us to recommend any strategies for player engagement.
-Skyhook responded and said they did not use “machine learning to assess game development”, which gave us an opportunity to come up with some ideas for investigations and models we could create. 
-We decided to look at the data to see if we could use machine learning to find any features that could model and predict player engagement so we could feed that back to them.
+We found datasets on Kaggle but also realised we could use Steam’s own API to gather recent or historic data.  
+We wondered if we could find some features of the data that would enable us to recommend any strategies for player engagement.  
+Skyhook responded and said they did not use “machine learning to assess game development”, which gave us an opportunity to come up with some ideas for investigations and models we could create.  
+We decided to look at the data to see if we could use machine learning to find any features that could model and predict player engagement so we could feed that back to them.  
 Valve originally launched Steam to deliver and update their own creations, such as the multiplayer ‘Counter Strike’; however it has grown into ‘the largest digital distribution platform for PC gaming, estimated around 75% of the market share in 2013’ (https://en.wikipedia.org/wiki/Steam_(service))
 
 ### Existing data sources (secondary):
@@ -114,11 +114,10 @@ As an initial experiment, Hyperparameter tuning a neural network produced a 64% 
 
 The link between monthly users and the news frequency is just not strong. /n
 
-I went on to experiment in other ways, with blurring the data (moving average or gaussian style)... and trying linear regression (disastrous…) but I did not find any higher scores.
+I went on to experiment in other ways, with blurring the data (moving average or gaussian style)... and trying linear regression (disastrous…) but I did not find any higher scores.  
 Perhaps more blurring could help to find a link between… but the initial blur i tried did not improve the accuracy score.
 
-Also, correlation/causation?
-Perhaps a finer detail of data for teh player numbers, rather than average, as news items could have a momentary, day-to-day effect rather than across a month.
+Perhaps a finer detail of data for the player numbers, rather than average, as news items could have a momentary, day-to-day effect rather than across a month.
 
 
 
@@ -146,6 +145,6 @@ We tried to see if user reviews could be scraped from the Steam website, and the
 
 
 ![image](https://user-images.githubusercontent.com/98031776/187021214-c7aacfe2-4788-4a48-9850-79dfc5520ac6.png)
-However, the data had a self-selection problem, where many users only give one type of review. Furthermore, the vast number of games available through Steam means that many users will have zero games in common with each other.
+However, the data had a self-selection problem, where many users only give one type of review. Furthermore, the vast number of games available through Steam means that many users will have zero games in common with each other.  
 At a practical level the website was also very good at refusing calls from webscraping algorithms, reducing the size of the dataset we could work from.
 
