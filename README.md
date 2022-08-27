@@ -68,6 +68,14 @@ Valve originally launched Steam to deliver and update their own creations, such 
 * Find some features that could be trained to predict review scores and popularity - e.g. other similar games
 * Predicting average playtime from other data
 
+# Files in this GITHUB
+
+## Network Analysis
+
+## News Analysis
+
+## Playtime Analysis
+
 
 
 
