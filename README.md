@@ -35,3 +35,15 @@ Formulate possible machine learning ideas from the steam.csv
 
 We are going to look at the above possibilities and decide on one after looking at the data we have.
 
+# Proposal
+
+We began to consider what data would be relevant to a developer, e.g. Skyhook games, creator of simulator software such as ‘Lawn Mowing Simulator’ and ‘Train Simulator’.
+We found datasets on Kaggle but also realised we could use Steam’s own API to gather recent or historic data.
+We wondered if we could find some features of the data that would enable us to recommend any strategies for player engagement.
+Skyhook responded and said they did not use “machine learning to assess game development”, which gave us an opportunity to come up with some ideas for investigations and models we could create. 
+We decided to look at the data to see if we could use machine learning to find any features that could model and predict player engagement so we could feed that back to them.
+Valve originally launched Steam to deliver and update their own creations, such as the multiplayer ‘Counter Strike’; however it has grown into ‘the largest digital distribution platform for PC gaming, estimated around 75% of the market share in 2013’ (https://en.wikipedia.org/wiki/Steam_(service))
+
+
+
+
