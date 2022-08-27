@@ -49,6 +49,7 @@ Existing data sources (secondary):
 * Steam Store Games (Clean dataset) https://www.kaggle.com/datasets/nikdavis/steam-store-games?select=steam_requirements_data.csv 
 * Steam Player Data https://www.kaggle.com/datasets/jackogozaly/steam-player-data 
 * Steam Game Analysis https://www.kaggle.com/code/simonprevoteaux/steam-game-analysis/data 
+
 Steam API calls (primary) https://developer.valvesoftware.com/wiki/Steam_Web_API :
 * GetNewsForApp
 * GetGlobalAchievementPercentagesForApp
