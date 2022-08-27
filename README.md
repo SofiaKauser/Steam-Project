@@ -59,7 +59,10 @@ Does the ebb and flow of interest in a game depend on its presence in the media?
 So you can see that there are definitely similar features with these graphs, even if they are not month-for-month the same…
 ![image](https://user-images.githubusercontent.com/98031776/187021347-28ce48c4-9dfe-4a84-bc6f-10fb0cef46bb.png)
 
-As an initial experiment, Hyperparameter tuning a neural network produced a 64% accuracy result when filtering the data down to just one game, which I felt was an encouraging start, and perhaps by including more data, the algorithm would learn more features and find a good score of >75%
+As an initial experiment, Hyperparameter tuning a neural network produced a 64% accuracy result when filtering the data down to just one game, which I felt was an encouraging start, and perhaps by including more data, the algorithm would learn more features and find a good score of >75%  
+
+### Raw Data: 
+![image](https://user-images.githubusercontent.com/98031776/187021578-f80f7f57-5f2c-4f46-ba11-3f78d325d79f.png)
 
 ### Data cleaning steps:
 * Handled in relational database style;
@@ -67,7 +70,13 @@ As an initial experiment, Hyperparameter tuning a neural network produced a 64% 
 * Cleaning out inadequate data sources;
 * Dropping initial rows - these would feature unreasonably high percentage increase, since the game had only just launched;
 * Fixing data types;
+* Binary Binning of increase/decrease to just 0 (for any decrease) or 1 (for any increase)
 * Cleaned out news sources with too few contributions.
+
+### Code for reading in API and joining to existing dataframe
+![image](https://user-images.githubusercontent.com/98031776/187021612-3a91323b-f095-4c37-8b59-6db1917f1dcc.png)
+![image](https://user-images.githubusercontent.com/98031776/187021633-89891289-eff3-476f-8cc5-06709d964846.png)
+
 
 ### Results
 * Accuracy scores, on predicting whether increase was positive or negative:
