@@ -44,13 +44,13 @@ Skyhook responded and said they did not use “machine learning to assess game d
 We decided to look at the data to see if we could use machine learning to find any features that could model and predict player engagement so we could feed that back to them.
 Valve originally launched Steam to deliver and update their own creations, such as the multiplayer ‘Counter Strike’; however it has grown into ‘the largest digital distribution platform for PC gaming, estimated around 75% of the market share in 2013’ (https://en.wikipedia.org/wiki/Steam_(service))
 
-Existing data sources (secondary):
+### Existing data sources (secondary):
 * Steam Reviews https://www.kaggle.com/datasets/andrewmvd/steam-reviews 
 * Steam Store Games (Clean dataset) https://www.kaggle.com/datasets/nikdavis/steam-store-games?select=steam_requirements_data.csv 
 * Steam Player Data https://www.kaggle.com/datasets/jackogozaly/steam-player-data 
 * Steam Game Analysis https://www.kaggle.com/code/simonprevoteaux/steam-game-analysis/data 
 
-Steam API calls (primary) https://developer.valvesoftware.com/wiki/Steam_Web_API :
+### Steam API calls (primary) https://developer.valvesoftware.com/wiki/Steam_Web_API :
 * GetNewsForApp
 * GetGlobalAchievementPercentagesForApp
 * GetPlayerSummaries
@@ -61,6 +61,14 @@ Steam API calls (primary) https://developer.valvesoftware.com/wiki/Steam_Web_API
 * GetRecentlyPlayedGames
 
 # Suggested directions
+
+* Linking system requirements data with sales or review scores
+* Compare player numbers over time with news data
+* Building a social network model of users, to find patterns in reviews
+* Find some features that could be trained to predict review scores and popularity - e.g. other similar games
+* Predicting average playtime from other data
+
+
 
 
 
