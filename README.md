@@ -60,5 +60,7 @@ Steam API calls (primary) https://developer.valvesoftware.com/wiki/Steam_Web_API
 * GetOwnedGames
 * GetRecentlyPlayedGames
 
+# Suggested directions
+
 
 
