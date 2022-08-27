@@ -87,6 +87,16 @@ Enough (but not all) user have their profiles set to ‘public’ to make this i
 
 
 ## News Analysis
+![image](https://user-images.githubusercontent.com/98031776/187021315-1d6e913d-e2ee-498e-9a83-932e76f7c974.png)
+
+Does the ebb and flow of interest in a game depend on its presence in the media? What about community announcements, content updates, and the like? This could be undertaken as a frequency analysis of news items, or perhaps some natural language processing on the content of news items.
+
+![image](https://user-images.githubusercontent.com/98031776/187021329-96f7d147-7a58-4e60-86b4-cfcac9e43112.png)
+
+So you can see that there are definitely similar features with these graphs, even if they are not month-for-month the same…
+![image](https://user-images.githubusercontent.com/98031776/187021347-28ce48c4-9dfe-4a84-bc6f-10fb0cef46bb.png)
+
+As an initial experiment, Hyperparameter tuning a neural network produced a 64% accuracy result when filtering the data down to just one game, which I felt was an encouraging start, and perhaps by including more data, the algorithm would learn more features and find a good score of >75%
 
 ## Median Playtime Analysis
 
