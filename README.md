@@ -1,3 +1,5 @@
+https://docs.google.com/presentation/d/1lfNAoeC02s2sYz1Dq-R_4PVU07mP-dPtWjHLV1DGSi4/edit#slide=id.g147763998bf_1_11
+
 # Proposal
 
 We began to consider what data would be relevant to a developer, e.g. Skyhook games, creator of simulator software such as ‘Lawn Mowing Simulator’ and ‘Train Simulator’.
